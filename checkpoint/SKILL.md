@@ -1,6 +1,11 @@
 ---
 name: checkpoint
 description: Save and restore snapshots of the working tree while an agent edits code, without committing, staging or touching HEAD. Use before a risky or large change, when the user says "checkpoint", "save a snapshot", "undo what you just did", "go back to before", or wants to compare the code now with an earlier point.
+summary: Save and restore snapshots of your code while an agent edits it, stored as git refs. No commits, no staging, HEAD untouched.
+version: 1.0.0
+tags: [git, undo, snapshot, checkpoint, safety]
+use_cases: [undo an agent's changes, try a risky refactor safely, compare code with an earlier point]
+docs_url: https://github.com/buricodes/pebl-skills/tree/main/checkpoint
 ---
 
 # Checkpoint

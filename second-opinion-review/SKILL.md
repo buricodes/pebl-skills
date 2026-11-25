@@ -1,6 +1,11 @@
 ---
 name: second-opinion-review
 description: Review uncommitted or branch changes with fresh eyes, read only, and return findings as path:line comments. Use when the user asks for a review, a second opinion, "check what the other agent did", "is this ready to merge", or before committing or opening a pull request.
+summary: A read only code review of the current diff with fresh eyes, ending in path:line findings the author can act on.
+version: 1.0.0
+tags: [code review, git, pull request, quality, bugs]
+use_cases: [review another agent's work, check a branch before merging, second opinion on a diff]
+docs_url: https://github.com/buricodes/pebl-skills/tree/main/second-opinion-review
 ---
 
 # Second opinion review

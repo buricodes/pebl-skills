@@ -1,6 +1,11 @@
 ---
 name: run-checks
 description: Find and run a project's tests, linter and type checker before saying a coding task is done, then fix what fails. Use at the end of any code change, when the user says "run the checks", "make sure it passes", "is it green", or before committing, opening a pull request or handing work back.
+summary: Finds a project's tests, linter and type checker, runs them before the agent says it's done, and fixes what the change broke.
+version: 1.0.0
+tags: [testing, lint, ci, quality, verification]
+use_cases: [make sure a change passes before committing, catch broken tests before a pull request]
+docs_url: https://github.com/buricodes/pebl-skills/tree/main/run-checks
 ---
 
 # Run checks
